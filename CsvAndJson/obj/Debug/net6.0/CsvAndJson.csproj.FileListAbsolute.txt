@@ -1,0 +1,17 @@
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\bin\Debug\net6.0\CsvAndJson.exe
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\bin\Debug\net6.0\CsvAndJson.deps.json
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\bin\Debug\net6.0\CsvAndJson.runtimeconfig.json
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\bin\Debug\net6.0\CsvAndJson.dll
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\bin\Debug\net6.0\CsvAndJson.pdb
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\CsvAndJson.csproj.AssemblyReference.cache
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\CsvAndJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\CsvAndJson.AssemblyInfoInputs.cache
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\CsvAndJson.AssemblyInfo.cs
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\CsvAndJson.csproj.CoreCompileInputs.cache
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\CsvAndJson.csproj.CopyComplete
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\CsvAndJson.dll
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\refint\CsvAndJson.dll
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\CsvAndJson.pdb
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\CsvAndJson.genruntimeconfig.cache
+C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\obj\Debug\net6.0\ref\CsvAndJson.dll

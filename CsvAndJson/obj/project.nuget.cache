@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vJAbbv5CdECI+INCiNXZZOpBNt7BiOEoGeTunEo0wpQR8w0p9IMU0S7jHfH1ZOsU+puHiO2Zq4wC92B4O4FFIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sartaj khan\\source\\repos\\CsvAndJson\\CsvAndJson\\CsvAndJson.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sartaj khan\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
