@@ -4,36 +4,44 @@
     {
         static void Main(string[] args)
         {
+            
+            string jSONPath = @"C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\JSONContacts.json";
            
-            string cSVPath = @"C:\Users\Sartaj khan\source\repos\CsvAndJson\CsvAndJson\CSVContacts.csv";
-
             PersonInput input = new PersonInput();
+            //Getting details from user
             Console.WriteLine("\nEnter your First Name : ");
-            input.fName = Console.ReadLine();
+            input.First_Name = Console.ReadLine();
             Console.WriteLine("Enter your Last Name : ");
-            input.lName = Console.ReadLine();
+            input.Last_Name = Console.ReadLine();
             Console.WriteLine("Enter your Address : ");
-            input.address = Console.ReadLine();
+            input.Address = Console.ReadLine();
             Console.WriteLine("Enter your City Name : ");
-            input.city = Console.ReadLine();
+            input.City = Console.ReadLine();
             Console.WriteLine("Enter your State Name : ");
-            input.state = Console.ReadLine();
+            input.State = Console.ReadLine();
             Console.WriteLine("Enter your Zip Code : ");
-            input.zip = Convert.ToInt32(Console.ReadLine());
+            input.Zip = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter your Phone Number : ");
-            input.phoneNumber = Convert.ToInt64(Console.ReadLine());
+            input.PhoneNumber = Convert.ToInt64(Console.ReadLine());
             Console.WriteLine("Enter your Email Address: ");
-            input.email = Console.ReadLine();
+            input.Email = Console.ReadLine();
 
-            //FileIO.WriteRecordsInFile(path, input);
-            //Console.WriteLine("\n\nRecords present in file are : ");
-            //FileIO.ReadRecordsFromFile(path);
-            //Console.ReadLine();
-
-            CSVOperations.WriteRecordsInCSVFile(cSVPath, input);
-            Console.WriteLine("\n\nRecords present in CSV file are : \n");
-            CSVOperations.ReadRecordsInCSVFile(cSVPath);
+            //Read and Write Operation in JSON Files
+            JsonIOOperations.WriteRecordsInJSONFile(jSONPath, input);
+            //JsonIOOperations.ReadRecordsInJSONFile(jSONPath);
             Console.ReadLine();
+        }
+        public static bool IsFileExists(string path)
+        {
+            if (File.Exists(path))
+            {
+                return true;
+            }
+            else
+            {
+                Console.WriteLine("File Not Found");
+                return false;
+            }
         }
     }
 }
