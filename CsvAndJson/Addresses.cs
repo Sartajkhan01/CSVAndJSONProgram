@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace CsvAndJson
 {
-    class AddressData
+    internal class PersonInput
     {
-        public string firstname { get; set; }
-        public string lastname { get; set; }
+        public string fName { get; set; }
+        public string lName { get; set; }
         public string address { get; set; }
         public string city { get; set; }
         public string state { get; set; }
-        public string code { get; set; }
-
+        public string email { get; set; }
+        public int zip { get; set; }
+        public long phoneNumber { get; set; }
     }
 
 }
